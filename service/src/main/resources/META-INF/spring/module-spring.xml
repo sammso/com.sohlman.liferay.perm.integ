@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.sohlman.liferay.perm.integ.service.impl.IntegrationInfoLocalServiceImpl" id="com.sohlman.liferay.perm.integ.service.IntegrationInfoLocalService" />
+	<bean class="com.sohlman.liferay.perm.integ.service.impl.IntegrationInfoServiceImpl" id="com.sohlman.liferay.perm.integ.service.IntegrationInfoService" />
+	<bean class="com.sohlman.liferay.perm.integ.service.persistence.impl.IntegrationInfoPersistenceImpl" id="com.sohlman.liferay.perm.integ.service.persistence.IntegrationInfoPersistence" parent="basePersistence" />
+	<bean class="com.sohlman.liferay.perm.integ.service.persistence.impl.IntegrationInfoFinderImpl" id="com.sohlman.liferay.perm.integ.service.persistence.IntegrationInfoFinder" parent="basePersistence" />
+</beans>

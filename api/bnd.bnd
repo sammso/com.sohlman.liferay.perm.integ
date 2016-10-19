@@ -1,0 +1,13 @@
+Bundle-Name: ${project.name}
+Bundle-SymbolicName: ${project.artifactId}
+Bundle-Version: ${project.version}
+Bundle-Description: ${project.description}
+
+Export-Package:\
+	com.sohlman.liferay.perm.integ.exception,\
+	com.sohlman.liferay.perm.integ.model,\
+	com.sohlman.liferay.perm.integ.service,\
+	com.sohlman.liferay.perm.integ.service.persistence,\
+	com.sohlman.liferay.perm.integ
+-includeresource: META-INF/service.xml=../service/service.xml
+

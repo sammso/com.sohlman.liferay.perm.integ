@@ -1,0 +1,5 @@
+Bundle-Name: ${project.name}
+Bundle-SymbolicName: ${project.artifactId}
+Bundle-Version: ${project.version}
+Bundle-Description: ${project.description}
+Private-Package: com.sohlman.liferay.perm.integ.example1
